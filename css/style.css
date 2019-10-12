@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+header{
+    height: 110px;
+    padding: 20px;
+}
+
+footer {
+  margin: 0 auto;
+}
+
+.maincontainer {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+
+.containercontent {
+    padding: 5px;
+    height: 100%;
+}
+
+
+#promotionstring {
+    margin-top: 12px;
+    font-size: small;
+}
+
+#fbar {
+    background: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    font-size: 13px;
+ }
+
+.googlelogo {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo{ 
+    margin-top: -10px;
+}
+
+.apps {
+    margin-top: -3px;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.headernav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headeritemleft {
+    display: inline;
+    clear: left;
+}
+
+.headeritemright {
+    float: right;
+}
+
+.headerlinks {
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.footernav {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footeritemleft {
+    display: inline;
+    clear: left;
+    padding: 5px;
+}
+
+.footeritemright {
+    float: right;
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+.footerpush, .push{
+    height: 35px;
+}
+
+.footerlinks {
+    color: #5f6368;
+}
+
+.footerlist {
+    padding: 10px;
+}
+
+.search{
+    height: 40px; 
+    width: 480px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.searchbar {
+    margin-top: 10px;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 40px; 
+    width: 480px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    margin-left: -27px;
+}
+
+.input-group{
+   width: 400px;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.buttongroup{
+    height: 70px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.micheight {
+    height: 30px;
+}
+
+.fa {
+    color: #9AA0A6;
+    padding: 10px;
+}
+
+.submit{
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    background: #f2f2f2;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    height: 30px;
+    min-width: 54px;
+    padding: 10px 10px 25px 10px;
+}
